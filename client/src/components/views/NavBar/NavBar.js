@@ -19,7 +19,7 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position:'fixed', zIndex: 5, width: '100%' }}>
       <div className="menu__logo">
-        <a href="/">Logo</a>
+        <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="124" height="24" viewBox="0 0 14 4"><path d="M22 1v2h-2v-2h-2v4h-12v-4h-2v2h-2v-2h-2v22h2v-2h2v2h2v-4h12v4h2v-2h2v2h2v-22h-2zm-18 18h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2v-2h2v2zm6 8v-6l5 3-5 3zm12 4h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2v-2h2v2z"/></svg><i>90</i>MOVIES</a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
